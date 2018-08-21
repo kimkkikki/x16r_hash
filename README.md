@@ -1,5 +1,5 @@
-# x16r_hash
-Python module for the x16r hash function
+# x16s_hash
+Python module for the x16s hash function
 
 ## Prerequisites
 
