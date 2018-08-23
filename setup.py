@@ -22,7 +22,15 @@ x16s_hash_module = Extension('x16s_hash',
                                           'sha3/sha2big.c'],
                             include_dirs=['.', './sha3'])
 
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+
 setup (name = 'x16s_hash',
        version = '1.0',
+       author = "kimkkikki",
+       author_email = "kimkkikki1@gmail.com",
+       url = "https://github.com/kimkkikki/x16s_hash",
        description = 'Bindings for proof of work used by X16S',
+       long_description=long_description,
+       long_description_content_type="text/markdown",
        ext_modules = [x16s_hash_module])

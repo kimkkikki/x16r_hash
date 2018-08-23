@@ -12,11 +12,5 @@ sudo apt-get install python-dev
 To install this module, clone this repository and run:
 
 ```
-python setup.py install
-```
-
-You can verify the installation by running:
-
-```
-python test.py
+pip install x16s-hash
 ```
