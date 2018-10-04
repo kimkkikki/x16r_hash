@@ -6,6 +6,7 @@ setup.py
 x16s.c
 x16s.h
 x16s_module.c
+sha3/aes_helper.c
 sha3/blake.c
 sha3/bmw.c
 sha3/cubehash.c
@@ -17,6 +18,7 @@ sha3/hamsi_helper.c
 sha3/jh.c
 sha3/keccak.c
 sha3/luffa.c
+sha3/md_helper.c
 sha3/sha2big.c
 sha3/shabal.c
 sha3/shavite.c
